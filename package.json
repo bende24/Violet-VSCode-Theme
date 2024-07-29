@@ -1,21 +1,22 @@
 {
-  "name": "violet",
-  "displayName": "violet",
-  "description": "",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.91.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Violet",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Violet-color-theme.json"
-      }
-    ]
-  }
+    "name": "murasaki",
+    "displayName": "Murasaki Hana",
+    "description": "",
+    "publisher": "Appsolotl",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.91.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Murasaki Violet",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Violet-color-theme.json"
+            }
+        ]
+    }
 }
