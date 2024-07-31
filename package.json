@@ -1,8 +1,9 @@
 {
     "name": "murasaki",
-    "displayName": "Murasaki Hana",
-    "description": "",
+    "displayName": "Murasaki Hana Theme",
+    "description": "A purple theme pack inspired by flowers (at least their names).",
     "publisher": "Appsolotl",
+    "icon": "icon.png",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.91.0"
