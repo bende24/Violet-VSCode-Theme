@@ -372,25 +372,6 @@
             }
         },
         {
-            "name": "Strings",
-            "scope": [
-                "string",
-                "constant.other.character-class.regexp",
-                "constant.other.character-class.set.regexp",
-                "constant.other.character-class.range.regexp"
-            ],
-            "settings": {
-                "foreground": "#E1AF81" // E1AF81 BBECB8 e9ce78 88c9ec 9BBEFF
-            }
-        },
-        {
-            "name": "Escape character",
-            "scope": ["constant.character.escape"],
-            "settings": {
-                "foreground": "#f4e585"
-            }
-        },
-        {
             "name": "Inherited Class",
             "scope": "entity.other.inherited-class",
             "settings": {
@@ -406,7 +387,7 @@
         },
         {
             "name": "Integers",
-            "scope": ["constant.numeric", "keyword.other.unit", "keyword.operator.quantifier.regexp"],
+            "scope": ["constant.numeric", "keyword.other.unit"],
             "settings": {
                 "foreground": "#bbecb8" // f7e26a e9ce78 93e5de bbecb8 7bdeae
             }
@@ -415,17 +396,44 @@
             "name": "Constants",
             "scope": [
                 "constant",
-                "constant.language.boolean" // Booleans are constants in json
+                "constant.language.boolean", // Booleans are constants in json
+                "punctuation.definition.constant"
             ],
             "settings": {
                 "foreground": "#9BBEFF" // 9BBEFF
             }
         },
         {
-            "name": "Constants",
-            "scope": "punctuation.definition.constant",
+            "name": "Strings",
+            "scope": [
+                "string",
+                "constant.other.character-class.regexp",
+                "constant.other.character-class.set.regexp",
+                "constant.other.character-class.range.regexp"
+            ],
             "settings": {
-                "foreground": "#9BBEFF"
+                "foreground": "#E1AF81" // E1AF81 BBECB8 e9ce78 88c9ec 9BBEFF
+            }
+        },
+        {
+            "name": "Escape character",
+            "scope": ["constant.character.escape", "keyword.operator.quantifier.regexp"],
+            "settings": {
+                "foreground": "#e7db8c"
+            }
+        },
+        {
+            "name": "Regular Expressions",
+            "scope": "string.regexp",
+            "settings": {
+                "foreground": "#eb9394" // 68C297
+            }
+        },
+        {
+            "name": "Regular Expressions",
+            "scope": "keyword.control.anchor.regexp",
+            "settings": {
+                "foreground": "#f1a3f4" // 68C297
             }
         },
         {
@@ -584,13 +592,6 @@
             "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
             "settings": {
                 "foreground": "#bbecb8"
-            }
-        },
-        {
-            "name": "Regular Expressions",
-            "scope": "string.regexp",
-            "settings": {
-                "foreground": "#68C297"
             }
         },
         {
