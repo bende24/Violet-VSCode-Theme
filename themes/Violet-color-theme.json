@@ -389,7 +389,7 @@
             "name": "Integers",
             "scope": ["constant.numeric", "keyword.other.unit"],
             "settings": {
-                "foreground": "#bbecb8" // f7e26a 76e0d8 bbecb8 7bdeae 93dcb9
+                "foreground": "#bbecb8" // f7e26a 76e0d8 bbecb8 7bdeae 93dcb9 80e5b4
             }
         },
         {

@@ -1,12 +1,12 @@
 {
-    "name": "murasaki",
-    "displayName": "Murasaki Hana Theme",
-    "description": "A purple theme pack inspired by flowers (at least their names).",
+    "name": "evergarden",
+    "displayName": "Evergarden Violet Theme",
+    "description": "A dark purple theme with a bubbly color scheme.",
     "publisher": "Appsolotl",
     "icon": "icon.png",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.91.0"
+        "vscode": "^1.80.0"
     },
     "categories": [
         "Themes"
@@ -14,10 +14,13 @@
     "contributes": {
         "themes": [
             {
-                "label": "Murasaki Violet",
+                "label": "Evergarden Violet",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Violet-color-theme.json"
             }
         ]
+    },
+    "scripts": {
+        "package": "vsce package"
     }
 }
