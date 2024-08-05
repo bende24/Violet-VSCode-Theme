@@ -282,7 +282,7 @@
         },
         {
             "name": "Variables",
-            "scope": "variable, entity.name.variable",
+            "scope": ["variable", "entity.name.variable", "meta.object-literal.key"],
             "settings": {
                 "foreground": "#fdc0ff"
             }
@@ -496,7 +496,7 @@
             "name": "markup Italic",
             "scope": "markup.italic, punctuation.definition.italic,todo.emphasis",
             "settings": {
-                "foreground": "#b09fff"
+                "foreground": "#E1AF81"
             }
         },
         {
@@ -510,14 +510,14 @@
             "name": "[VSCODE-CUSTOM] Markdown headings",
             "scope": "entity.name.section.markdown",
             "settings": {
-                "foreground": "#fdc0ff"
+                "foreground": "#b09fff"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Markdown heading Punctuation Definition",
             "scope": "punctuation.definition.heading.markdown",
             "settings": {
-                "foreground": "#fdc0ff"
+                "foreground": "#b09fff"
             }
         },
         {
