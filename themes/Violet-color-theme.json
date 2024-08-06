@@ -253,7 +253,8 @@
                 "meta.template.expression",
                 "keyword.operator",
                 "keyword.operator.type.annotation",
-                "punctuation.accessor"
+                "punctuation.accessor",
+                "punctuation.separator.key-value.ts"
             ],
             "settings": {
                 "foreground": "#e8e6fb"
