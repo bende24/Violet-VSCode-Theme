@@ -246,7 +246,7 @@
             }
         },
         {
-            "name": "Type annotation (: in TS)",
+            "name": "Type annotation (like : in TS)",
             "scope": [
                 "block.scope.end",
                 "block.scope.begin",
@@ -254,7 +254,8 @@
                 "keyword.operator",
                 "keyword.operator.type.annotation",
                 "punctuation.accessor",
-                "punctuation.separator.key-value.ts"
+                "punctuation.separator.key-value",
+                "punctuation.definition.block"
             ],
             "settings": {
                 "foreground": "#e8e6fb"
