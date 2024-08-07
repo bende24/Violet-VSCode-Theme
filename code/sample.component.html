@@ -1,0 +1,25 @@
+<div class="container">
+    <h1>{{ title }}</h1>
+
+    <div>
+        <label for="name">Name:</label>
+        <input id="name" [(ngModel)]="name" />
+    </div>
+
+    <button (click)="greet()">Greet</button>
+
+    <div class="number-list">
+        <h2>Numbers:</h2>
+        <ul>
+            <li *ngFor="let number of numbers; let i = index">
+                {{ number }}
+                <button class="remove-btn" (click)="removeNumber(i)">Remove</button>
+            </li>
+        </ul>
+
+        <div>
+            <input type="number" [(ngModel)]="newNumber" placeholder="Add a number" />
+            <button (click)="addNumber()">Add Number</button>
+        </div>
+    </div>
+</div>
