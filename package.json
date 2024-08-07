@@ -3,6 +3,10 @@
     "displayName": "Evergarden Violet Theme",
     "description": "A dark purple theme with a bubbly color scheme.",
     "publisher": "Appsolotl",
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/bende24/Violet-VSCode-Theme"
+    },
     "icon": "icon.png",
     "version": "0.0.2",
     "engines": {
