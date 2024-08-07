@@ -269,7 +269,9 @@
                 "keyword.operator.type",
                 "keyword.operator.new",
                 "keyword.operator.logical.python",
-                "variable.language.this"
+                "variable.language.this",
+                "punctuation.definition.keyword",
+                "punctuation.attribute-shorthand.event"
             ],
             "settings": {
                 "foreground": "#b09fff"
@@ -409,6 +411,7 @@
             "name": "Strings",
             "scope": [
                 "string",
+                "punctuation.definition.string",
                 "constant.other.character-class.regexp",
                 "constant.other.character-class.set.regexp",
                 "constant.other.character-class.range.regexp"
