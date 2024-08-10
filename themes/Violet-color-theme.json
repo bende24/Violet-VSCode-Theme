@@ -1112,6 +1112,7 @@
         "editorOverviewRuler.wordHighlightTextForeground": "#b19fff8d",
         "editorOverviewRuler.selectionHighlightForeground": "#b19fff8d",
         "editorOverviewRuler.rangeHighlightForeground": "#b19fff8d",
+        "editorOverviewRuler.bracketMatchForeground": "#ff79ed8d",
         "minimap.selectionOccurrenceHighlight": "#b19fff8d",
         "editorError.foreground": "#ee8181",
         "editorError.background": "#ee818100",
