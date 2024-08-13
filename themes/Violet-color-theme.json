@@ -1104,7 +1104,7 @@
         "editorRuler.foreground": "#605976",
         "editorBracketMatch.background": "#433a6a80",
         "editorBracketMatch.border": "#857ea1",
-        "editor.foldBackground": "#433a6a80",
+        "editor.foldBackground": "#2B264180",
         "editorOverviewRuler.background": "#00000000",
         "editorOverviewRuler.border": "#60597660",
         "editorOverviewRuler.wordHighlightForeground": "#b19fff8d",
@@ -1149,8 +1149,8 @@
         "badge.foreground": "#e8e6fb",
         "extensionIcon.starForeground": "#f3c75be4",
         "extensionIcon.preReleaseForeground": "#B24191e4",
-        "keybindingLabel.foreground": "#e8e6fb",
-        "keybindingLabel.background": "#433A6A",
+        "keybindingLabel.foreground": "#D0CAE1",
+        "keybindingLabel.background": "#352F50",
         "keybindingLabel.border": "#433A6A00",
         "keybindingLabel.bottomBorder": "#433A6A00",
         "keybindingTable.headerBackground": "#211d2e",
@@ -1301,6 +1301,7 @@
         "editorGutter.commentRangeForeground": "#605976",
         "debugExceptionWidget.background": "#242034",
         "debugExceptionWidget.border": "#433a6a",
+        "editorWatermark.foreground": "#9B93B4",
         "editorBracketHighlight.foreground1": "#ff79ed", // f88ce6 FDDE78 e8e6fb
         "editorBracketHighlight.foreground2": "#FDDE78", // ecff95
         "editorBracketHighlight.foreground3": "#b09fff" // ff79ed
