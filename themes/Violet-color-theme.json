@@ -484,24 +484,46 @@
             }
         },
         {
-            "name": "Bold",
-            "scope": "markup.bold,todo.bold",
+            "name": "markup Bold",
+            "scope": "markup.bold,todo.bold, punctuation.definition.bold",
             "settings": {
                 "foreground": "#9BBEFF"
             }
         },
         {
-            "name": "Bold",
-            "scope": "punctuation.definition.bold",
+            "name": "markup Bold",
+            "scope": "markup.bold,todo.bold",
             "settings": {
-                "foreground": "#f4cbff"
+                "fontStyle": "bold"
             }
         },
         {
             "name": "markup Italic",
             "scope": "markup.italic, punctuation.definition.italic,todo.emphasis",
             "settings": {
-                "foreground": "#E1AF81"
+                "foreground": "#E1AF81",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "markup Strikethrough",
+            "scope": ["markup.strikethrough.markdown", "punctuation.definition.strikethrough.markdown"],
+            "settings": {
+                "foreground": "#E7DB8C"
+            }
+        },
+        {
+            "name": "markup Strikethrough",
+            "scope": ["punctuation.definition.strikethrough.markdown"],
+            "settings": {
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "markup Strikethrough",
+            "scope": ["markup.strikethrough.markdown"],
+            "settings": {
+                "fontStyle": "strikethrough"
             }
         },
         {
@@ -512,24 +534,25 @@
             }
         },
         {
-            "name": "[VSCODE-CUSTOM] Markdown headings",
+            "name": "markdown Header text",
             "scope": "entity.name.section.markdown",
             "settings": {
-                "foreground": "#b09fff"
+                "foreground": "#b09fff",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "[VSCODE-CUSTOM] Markdown heading Punctuation Definition",
+            "name": "markdown Header #",
             "scope": "punctuation.definition.heading.markdown",
             "settings": {
                 "foreground": "#b09fff"
             }
         },
         {
-            "name": "punctuation.definition.list.begin.markdown",
-            "scope": "punctuation.definition.list.begin.markdown",
+            "name": "markdown List",
+            "scope": ["punctuation.definition.list.begin.markdown", "beginning.punctuation.definition.list.markdown"],
             "settings": {
-                "foreground": "#f4cbff"
+                "foreground": "#A0E3FE"
             }
         },
         {
@@ -540,61 +563,38 @@
             }
         },
         {
-            "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
-            "scope": "markup.inline.raw.markdown",
-            "settings": {
-                "foreground": "#68c397"
-            }
-        },
-        {
-            "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
-            "scope": "markup.inline.raw.string.markdown",
-            "settings": {
-                "foreground": "#68c397"
-            }
-        },
-        {
-            "name": "[VSCODE-CUSTOM] Markdown List Punctuation Definition",
-            "scope": "punctuation.definition.list.markdown",
+            "name": "markdown Inline code",
+            "scope": ["markup.inline.raw.string.markdown", "markup.inline.raw.markdown"],
             "settings": {
                 "foreground": "#f4cbff"
             }
         },
         {
-            "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition String",
-            "scope": [
-                "punctuation.definition.string.begin.markdown",
-                "punctuation.definition.string.end.markdown",
-                "punctuation.definition.metadata.markdown"
-            ],
-            "settings": {
-                "foreground": "#f4cbff"
-            }
-        },
-        {
-            "name": "beginning.punctuation.definition.list.markdown",
-            "scope": ["beginning.punctuation.definition.list.markdown"],
-            "settings": {
-                "foreground": "#f4cbff"
-            }
-        },
-        {
-            "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Link",
-            "scope": "punctuation.definition.metadata.markdown",
+            "name": "markdown Punctuation Definition String",
+            "scope": ["punctuation.definition.string.begin.markdown", "punctuation.definition.string.end.markdown"],
             "settings": {
                 "foreground": "#f4cbff"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
-            "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
+            "scope": [
+                "markup.underline.link.markdown",
+                "markup.underline.link.image.markdown",
+                "punctuation.definition.metadata.markdown"
+            ],
             "settings": {
                 "foreground": "#b09fff"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Markdown Link Title/Description",
-            "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
+            "scope": [
+                "string.other.link.title.markdown",
+                "string.other.link.description.markdown",
+                "punctuation.definition.link.title.begin.markdown",
+                "punctuation.definition.link.title.end.markdown"
+            ],
             "settings": {
                 "foreground": "#bbecb8"
             }
@@ -965,13 +965,6 @@
             }
         },
         {
-            "name": "markup.italic.markdown",
-            "scope": "markup.italic.markdown",
-            "settings": {
-                "fontStyle": "italic"
-            }
-        },
-        {
             "name": "html tag bracket",
             "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
             "settings": {
@@ -1074,6 +1067,16 @@
         "inputValidation.infoBorder": "#426292",
         "textLink.foreground": "#b09fff",
         "textLink.activeForeground": "#f4cbff",
+        "textBlockQuote.border": "#86c283",
+        "textBlockQuote.background": "#242034",
+        "textPreformat.foreground": "#f4cbff",
+        "textPreformat.background": "#352F50",
+        "textCodeBlock.background": "#211D2E",
+        "settings.modifiedItemIndicator": "#86c283",
+        "settings.headerForeground": "#b4acca",
+        "settings.focusedRowBackground": "#242034",
+        "settings.rowHoverBackground": "#211D2E",
+        "settings.settingsHeaderHoverForeground": "#D0CAE1",
         "editor.background": "#1c1a27",
         "editor.foreground": "#e8e6fb",
         "editorLineNumber.foreground": "#857ea1",
@@ -1187,6 +1190,8 @@
         "tab.activeBorderTop": "#00000000",
         "tab.inactiveBackground": "#24203400",
         "tab.inactiveForeground": "#b4acca",
+        "tab.unfocusedActiveForeground": "#8f86a7",
+        "tab.unfocusedInactiveForeground": "#706789", // 706789
         "tab.hoverBackground": "#1c1a27",
         "tab.hoverForeground": "#e8e6fb",
         "tab.dragAndDropBorder": "#b09fff",
@@ -1294,8 +1299,6 @@
         "editorGroup.dropBackground": "#433a6a80",
         "editorGroup.dropIntoPromptBorder": "#e8e6fb",
         "panelSection.border": "#352f50",
-        "settings.headerForeground": "#b4acca",
-        "settings.focusedRowBackground": "#ffffff07",
         "walkThrough.embeddedEditorBackground": "#00000050",
         "breadcrumb.activeSelectionForeground": "#e8e6fb",
         "editorGutter.commentRangeForeground": "#605976",
